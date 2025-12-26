@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character Counter</title>
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <h3>Message</h3>
+    <p>Maximum 200 characters allowed</p>
+
+    <textarea id="message" placeholder="Type your message..."></textarea>
+
+    <div class="counter" id="counter">
+        Typed: 0 | Remaining: 200
+    </div>
+
+    <div class="warning" id="warning">
+        Character limit reached!
+    </div>
+
+    <button onclick="clearText()">Clear Message</button>
+<script src="script.js"></script>
+
+</body>
+</html>
